@@ -2,6 +2,8 @@
 
 This is a prototype repository for the MicroBooNE VR project. 
 
+The author of this README.md (Ben) stresses that this is the first GitHub repository he has setup. Some of the instructions may not quite work. Please let him know if something's wrong!
+
 ## Check out the code
 
 These instructions will demonstrate how you can check the code out and run it with Unity. You do not need a GitHub account to do this. To checkout the project on a Mac, do the following:
