@@ -4,7 +4,6 @@
 
 var projectile : Rigidbody;
 var speed : float = 40;
-var force : float = 4;
 
 function Update () {
     // Put this in your update function
@@ -15,6 +14,8 @@ function Update () {
     clone = Instantiate(projectile, transform.position, transform.rotation);
  
     // Add force to the cloned object in the object's forward direction
+    //clone.velocity = transform.TransformDirection(Vector3(0,0,speed));
+    
     clone.velocity = transform.TransformDirection(Vector3(0,0,speed));
 
 
@@ -22,3 +23,7 @@ function Update () {
 	Destroy(clone.gameObject, 3);
     }
 }
+
+
+
+
