@@ -1,3 +1,5 @@
+# This repository is out of date, the current one can be found here: https://github.com/bcarls/vRMicroBooNE_test_2
+
 # vRMicroBooNE_test_1
 
 This is a prototype repository for the MicroBooNE VR project. 
